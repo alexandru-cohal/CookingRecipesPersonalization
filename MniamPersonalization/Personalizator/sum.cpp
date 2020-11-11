@@ -1,10 +1,15 @@
+/*! \file sum.cpp
+*   \brief The sum.cpp implementation file
+* 
+*   This implementation file contains the definition of the sum function used for adding 2 integers.
+*/
+
 #include "sum.h"
 
-/**
- * @brief Function which calculates the sum of 2 integers.
- * @param a The first integer to be added
- * @param b The second integer to be added
- * @return The sum of the two given integers
+/*!
+ * \param[in] a First integer
+ * \param[in] b Second integer
+ * \return An integer which is the sum of the 2 input parameters
 */
 int sum(int a, int b)
 {
