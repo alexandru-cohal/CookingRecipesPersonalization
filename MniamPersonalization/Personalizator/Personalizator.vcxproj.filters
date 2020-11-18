@@ -1,30 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Personalizator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="sum.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <Filter Include="parser">
+      <UniqueIdentifier>{43f6d98c-088c-424a-b75a-831213563f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unparser">
+      <UniqueIdentifier>{4e95443e-4f6e-4933-b5b7-28d30b97218e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{7d655c98-c797-48a9-9b6f-1197353fe1be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logger">
+      <UniqueIdentifier>{41b5c50d-75b5-4ae2-a69f-dc78a111f51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="retrieve">
+      <UniqueIdentifier>{55b8d11c-b6d6-4977-940f-11a6f8c13dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reuse">
+      <UniqueIdentifier>{604b41ab-98dc-461e-8876-98bdead63635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="revise">
+      <UniqueIdentifier>{9b86ca00-8ccd-4e3d-a96b-30c25dfd8b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="retain">
+      <UniqueIdentifier>{e2e8ff6a-3890-4738-a2aa-c989f93a6db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphAlg">
+      <UniqueIdentifier>{07d7a8de-c4ea-4f82-98df-9239ef691599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataFiles">
+      <UniqueIdentifier>{a83c9de9-7fa3-4834-98f5-a58d0304980c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

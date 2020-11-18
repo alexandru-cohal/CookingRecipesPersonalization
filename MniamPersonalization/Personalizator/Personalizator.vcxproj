@@ -138,13 +138,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Personalizator.cpp" />
-    <ClCompile Include="sum.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="sum.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
