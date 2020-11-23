@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data\dataFiles\ccc_cocktails.xml" />
+    <Xml Include="data\dataFiles\ccc_salad.xml" />
+    <Xml Include="data\dataFiles\ccc_sandwich.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\dataFiles\food.rdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\dataFiles\query.txt" />
+    <Text Include="data\dataFiles\units.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

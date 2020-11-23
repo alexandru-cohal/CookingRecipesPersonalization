@@ -36,4 +36,28 @@
       <UniqueIdentifier>{a83c9de9-7fa3-4834-98f5-a58d0304980c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data\dataFiles\ccc_cocktails.xml">
+      <Filter>dataFiles</Filter>
+    </Xml>
+    <Xml Include="data\dataFiles\ccc_salad.xml">
+      <Filter>dataFiles</Filter>
+    </Xml>
+    <Xml Include="data\dataFiles\ccc_sandwich.xml">
+      <Filter>dataFiles</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\dataFiles\food.rdf">
+      <Filter>dataFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\dataFiles\query.txt">
+      <Filter>dataFiles</Filter>
+    </Text>
+    <Text Include="data\dataFiles\units.txt">
+      <Filter>dataFiles</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
